@@ -6,23 +6,7 @@
 
 
 using namespace std;
-void ran()
-	{
-		ifstream filein2("tempcss.css");
-        ofstream fileout2("f1.css");
-		string strTemp2;
-		if(!filein2 || !fileout2)
-    	{
-            cout << "Error opening files!" << endl;
-        }
-		while(filein2 >> strTemp2)
-        {
-            cout<<strTemp2;
 
-            fileout2 << strTemp2<<endl;
-
-        }
-	}
 	
 	
 	int temp_u()
